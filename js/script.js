@@ -2,7 +2,7 @@
 const greeting = document.getElementById("greeting");
 const userName = prompt("Masukkan nama Anda:");
 if (userName) {
-  greeting.textContent = `Hi ${userName}, Welcome To FreshCo`;
+  greeting.textContent = `Hi ${userName}, Welcome To RevoU`;
 }
 
 // Form Validation
