@@ -13,7 +13,6 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   const phone = document.getElementById("phone").value.trim();
   const message = document.getElementById("messageText").value.trim();
   const resultBox = document.getElementById("resultBox");
-
   if (!name || !email || !phone || !message) {
     alert("Semua field wajib diisi!");
     return;
